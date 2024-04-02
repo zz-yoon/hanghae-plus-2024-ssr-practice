@@ -1,24 +1,28 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import { Helmet } from 'react-helmet-async';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Helmet>
+        <title>hanghae-plus-2024-ssr-practice</title>
+        {/* 메타 태그 */}
+        <meta name="title" content="hanghae-plus-2024-ssr-practice" />
+        <meta name="description" content="first make hanghae-plus-2024-ssr-practice. first step." />
+        <meta name="robots" content="index" />
+        {/* 오픈그래프 태그 */}
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content="hanghae-plus-2024-ssr-practice" />
+        <meta property="og:description" content="first make hanghae-plus-2024-ssr-practice. first step." />
+        <meta property="og:image" content="image url" />
+        <meta property="og:url" content="url" />
+        {/* 트위터 태그 */}
+        <meta name="twitter:card" content="card image" />
+        <meta name="twitter:title" content="hanghae-plus-2024-ssr-practice" />
+        <meta name="twitter:description" content="first make hanghae-plus-2024-ssr-practice. first step." />
+        <meta name="twitter:image" content="image url" />
+      </Helmet>
+    </>
   );
 }
 

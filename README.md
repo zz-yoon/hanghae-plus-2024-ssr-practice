@@ -13,6 +13,12 @@ hangehae-plus-2024-ssr-practice
   https://create-react-app.dev/docs/getting-started
   2)cra를 통해 hanghae-ssr 프로젝트 생성
   npx create-react-app hanghae-ssr
+  3)react-helmet-async package 설치
+  npm install react-helmet-async
+  4)HelmetProvider 설정
+  index.js => HelmetProvider 설정 5)메타 태그 , 오픈그래프, 트위터 태그 설정
+
+  #react-snap?
 
 ## SEO 스코어 분석
 
