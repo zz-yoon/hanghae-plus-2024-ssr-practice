@@ -17,6 +17,12 @@ hangehae-plus-2024-ssr-practice
   npm install react-helmet-async
   4)HelmetProvider 설정
   index.js => HelmetProvider 설정 5)메타 태그 , 오픈그래프, 트위터 태그 설정
+  5)vercel 회원가입 
+  6)vercel github 연동 
+  7)issue 
+  깃 레파지토리로 연결해서 vercel이 deploy되지 않음 
+  현재 레파지토리 > hanghae-ssr이 있음으로 해당 프로젝트로 잡아야 deploy 됨 
+  
 
   #react-snap?
 
