@@ -19,8 +19,8 @@ hangehae-plus-2024-ssr-practice
 - index.js => HelmetProvider 설정
 
 5. 메타 태그 , 오픈그래프, 트위터 태그 설정
-
-#react-snap?
+6. vercel 세팅
+   <https://vercel.com/>
 
 ## SEO 스코어 분석
 
@@ -34,3 +34,7 @@ hangehae-plus-2024-ssr-practice
 - 스코어 개선을 위해 필요한 작업 1
 - 스코어 개선을 위해 필요한 내용 2
 - 스코어 개선을 위해 필요한 내용 3
+
+### chatgpt 추천?
+
+- react-snap?
